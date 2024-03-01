@@ -35,3 +35,7 @@ const cal = new Calculator();
 
 console.log(cal.calculate("4-7+8+9/2*3")); // Salida: 15.5
 ```
+
+### Captura
+
+![alt text](image.png)
