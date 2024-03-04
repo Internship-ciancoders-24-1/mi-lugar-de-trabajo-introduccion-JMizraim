@@ -12,7 +12,7 @@ La clase Calculator proporciona un método para realizar cálculos aritméticos 
 
 ### Componentes Clave
 
-1.  **Expresiones Regulares**: El algoritmo utiliza expresiones regulares para hacer que funciones. Se definen tres expresiones regulares:
+1.  **Expresiones Regulares**: El algoritmo utiliza expresiones regulares para reconocer operaciones. Se definen tres expresiones regulares:
 
     - `#operatorRegEx`: Coincide con operadores matemáticos como `+`, `-`, `*`, `/` y `^`.
     - `#operandRegEx`: Coincide con operandos numéricos, incluidos enteros y decimales.
@@ -94,7 +94,7 @@ const yeah = "2^2"; // ✅
 const nop = "2²"; // ❌;
 ```
 
-- No dejar espacios entre operandos o operadores.
+- No dejar espacios entre operandos u operadores.
 
 ```javascript
 const yeah = "(1+2)+2"; // ✅
