@@ -87,6 +87,13 @@ const yeahx2 = "sqrt(16/4)"; // ✅
 const nop = "√4"; // ❌;
 ```
 
+- Cuando necesites trabajar con potencias, recuerda utilizar `^`.
+
+```javascript
+const yeah = "2^2"; // ✅
+const nop = "2²"; // ❌;
+```
+
 - No dejar espacios entre operandos o operadores.
 
 ```javascript
